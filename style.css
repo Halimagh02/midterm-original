@@ -1,0 +1,37 @@
+nav {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    gap: 30px; /* Space between items */
+    padding: 20px 0;
+}
+.na {
+    color: #7a1317;
+}
+.big-logo {
+    position: relative;
+    margin-top: -5rem;
+    z-index: -100;
+}
+
+body {
+
+    background-image: url(pointed\ bg-01-01.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    font-family: "din-2014-rounded-variable", sans-serif;
+    font-variation-settings: "wght" 300;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.square {
+    color: #7a1317; 
+    width: 6rem;
+}
