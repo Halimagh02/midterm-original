@@ -14,7 +14,7 @@ nav {
 
     z-index: -200;
 }
-
+/* this style is applied to every body in this project */
 body {
 
     background-image: url(pointed\ bg-01-01.png) ;
@@ -33,20 +33,20 @@ nav {
 body {
     font-family: "din-2014-rounded-variable", sans-serif;
 }
-
+/* to place objects next to each other */
 .content-wrapper {
     display: flex;
     align-items: flex-start; 
     gap: 4rem;               
     padding: 4rem;           
 }
-
+/* only for eye content */
 .content-img {
      padding-top: 5rem;
     max-width: 600px;
     height: auto;
 }
-
+/* main eye paragraph */
 .eye-first-p {
     padding-top: 5rem;
     width: 40%;        
@@ -57,10 +57,6 @@ body {
 
 }
 
-.square {
-    color: #7a1317; 
-    width: 6rem;
-}
 
 .icon {
     flex-direction: row;
@@ -77,8 +73,8 @@ body {
 
 .ABOUT-US {
     position: absolute;
-    left: 5rem;      /* move it left */
-    top: 2rem;       /* adjust vertical position */
+    left: 5rem;      
+    top: 2rem;       
     letter-spacing: 2px;
     font-family: "am-udine", sans-serif;
     font-weight: 400;
