@@ -54,7 +54,6 @@ body {
     color: #7a1317;
     font-size: 15px;
     text-align: center;
-    font-family:
 
 }
 
@@ -67,3 +66,23 @@ body {
     flex-direction: row;
     justify-content: center;
 }
+
+.about-us-p {
+
+    margin-top: 6rem;
+    margin-left: 40rem;
+    margin-right: 8rem;
+    color: aliceblue;
+}
+
+.ABOUT-US {
+    position: absolute;
+    left: 5rem;      /* move it left */
+    top: 2rem;       /* adjust vertical position */
+    letter-spacing: 2px;
+    font-family: "am-udine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+font-size: 13rem;
+margin-left: 2rem;
+color: #7a1317;}
